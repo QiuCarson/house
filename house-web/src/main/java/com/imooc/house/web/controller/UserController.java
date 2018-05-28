@@ -27,4 +27,10 @@ public class UserController {
         modelMap.put("user", one);
         return "hello";
     }
+
+    @GetMapping("index")
+    public String index(ModelMap modelMap) throws IllegalAccessException {
+
+        return "homepage/index";
+    }
 }
