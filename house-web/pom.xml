@@ -21,6 +21,8 @@
             <artifactId>house-biz</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
+
+
     </dependencies>
 
     <build>

@@ -2,10 +2,10 @@ package com.imooc.house;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableAsync;
 
 @SpringBootApplication
-//@ComponentScan(value = "com.imooc.house.biz")
-//@MapperScan(value = "com.imooc.house.biz.mapper")
+@EnableAsync
 public class HouseApplication {
 
     public static void main(String[] args) {
